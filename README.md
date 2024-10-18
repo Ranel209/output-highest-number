@@ -1,1 +1,1 @@
-# output-highest-number
+# output_highest_number
