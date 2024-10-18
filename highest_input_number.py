@@ -23,3 +23,4 @@ int5 = int(input("Input your FIFTH number: "))
 #use define function
 highest_number = compare (int1, int2, int3, int4, int5)
 #output largest number
+print(f"Your highest value input: {highest_number}")
