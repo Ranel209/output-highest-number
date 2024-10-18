@@ -13,12 +13,13 @@ def compare(int1, int2, int3, int4, int5):
 
     if int5 > highest:
         highest = int5
+    return highest
 #user input 5 numberds
-    int1 = int(input("Input your FIRST number: "))
-    int2 = int(input("Input your SECOND number: "))
-    int3 = int(input("Input your THIRD number: "))
-    int4 = int(input("Input your FOURTH number: "))
-    int5 = int(input("Input your FIFTH number: "))
+int1 = int(input("Input your FIRST number: "))
+int2 = int(input("Input your SECOND number: "))
+int3 = int(input("Input your THIRD number: "))
+int4 = int(input("Input your FOURTH number: "))
+int5 = int(input("Input your FIFTH number: "))
 #use define function
-    highest_number = compare (int1, int2, int3, int4, int5)
+highest_number = compare (int1, int2, int3, int4, int5)
 #output largest number
