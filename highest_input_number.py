@@ -9,15 +9,17 @@ def compare(int1, int2, int3, int4, int5):
         highest = int3
 
     if int4 > highest:
-        ighest = int4
+        highest = int4
 
     if int5 > highest:
         highest = int5
 #user input 5 numberds
-int1 = int(input("Input your FIRST number: "))
-int2 = int(input("Input your SECOND number: "))
-int3 = int(input("Input your THIRD number: "))
-int4 = int(input("Input your FOURTH number: "))
-int5 = int(input("Input your FIFTH number: "))
+    int1 = int(input("Input your FIRST number: "))
+    int2 = int(input("Input your SECOND number: "))
+    int3 = int(input("Input your THIRD number: "))
+    int4 = int(input("Input your FOURTH number: "))
+    int5 = int(input("Input your FIFTH number: "))
 #use define function
+    highest_number = compare(int1, int2, int3, int4, int5)
 #output largest number
+    print(f"The largest number given is: {highest_number}")
